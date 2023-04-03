@@ -9,10 +9,13 @@ body {
 
 /* Typography */
 
+h1, h3 {
+    margin: 0;
+}
+
 h1 {
     color: whitesmoke;
     font-size: 36px;
-    margin: 0;
 }
 
 h2 {
@@ -22,7 +25,10 @@ h2 {
 h3 {
     color: #d0aaff;
     font-size: 20px;
-    margin: 0;
+}
+
+p {
+    line-height: 1.5;
 }
 
 /* Links */
@@ -43,26 +49,74 @@ a:active {
     width: 620px;
 }
 
+/* Buttons */
+
+.btn {
+    padding: 10px 19px;
+    border-radius: 4px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.cta-btn {
+    background: #5f29a3;
+    color: whitesmoke;
+}
+
+.cta-btn:hover,
+.cta-btn:active,
+.cta-btn:focus {
+    background: #f3e885;
+    color: #2b283a;
+}
+
+.detail-btn {
+    background: #f0e0ff;
+    color: #5f29a3;
+}
+
+.about-btn {
+    background: whitesmoke;
+    color: #5f29a3;
+}
+
+/* LAYOUT */
+
+header, section, footer {
+    padding: 45px 0;
+}
+
 /* Header Section*/
 
-header {
+header, .section-two {
     background: #5f29a3;
-    padding: 45px 0;
 }
 
 /* Main Section */
 
-section {
-    padding: 45px 0;
-}
-
-.nft-img {
+.main-image {
     width: 100%;
 }
 
 .section-two {
-    background: #5f29a3;
     color: whitesmoke;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-image {
+    width: 300px;
+    border-radius: 4px;
+}
+
+/* Footer Section */
+
+footer {
+    text-align: center;
+    color: #5f29a3;
 }
 
 
