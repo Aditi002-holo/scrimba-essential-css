@@ -1,19 +1,23 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 21px;
-}
-
-main {
-    width: 570px;
-    margin: 0 auto;
     text-align: center;
 }
+
+
 
 /* Typography */
 
 h1, 
 h2 {
     font-weight: 300;
+}
+
+h1,
+h2,
+h3,
+p {
+    margin-top: 0;
 }
 
 h1 {
@@ -27,6 +31,7 @@ h2 {
 h3 {
     font-size: 32px;
     font-weight: 900;
+    margin-bottom: 5px;
 }
 
 p {
@@ -51,4 +56,22 @@ a {
 a:hover,
 a:focus {
     color: #131313;
+}
+
+/* Layout */
+
+.container {
+    width: 570px;
+    margin: 0 auto;
+}
+
+.header,
+.about,
+.content {
+    padding: 100px 0;
+}
+
+.inverse {
+    color: #fff;
+    background: #252525;
 }
