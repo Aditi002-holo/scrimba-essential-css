@@ -26,6 +26,9 @@ h1 {
 
 h2 {
     font-size: 36px;
+    border-top: 1px solid #c4c4c4;
+    border-bottom: 1px solid #c4c4c4;
+    padding: 40px;
 }
 
 h3 {
@@ -74,4 +77,25 @@ a:focus {
 .inverse {
     color: #fff;
     background: #252525;
+}
+
+/* buttons */
+
+.btn {
+    color: #252525;
+    background: #99D930;
+
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 16px;
+
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.btn:hover,
+.btn:focus {
+    color: #fff;
+    background: #252525;
+    border: 1px solid #99D930;
 }
