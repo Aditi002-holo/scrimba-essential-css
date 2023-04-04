@@ -1,0 +1,54 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+}
+
+main {
+    width: 570px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Typography */
+
+h1, 
+h2 {
+    font-weight: 300;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 32px;
+    font-weight: 900;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* making text bold */
+
+h1 span,
+h2 span {
+    display: block;
+    font-weight: 900;
+}
+
+/* Links */
+
+a {
+    color: #99D930;
+    font-weight: 900;
+}
+
+a:hover,
+a:focus {
+    color: #131313;
+}
